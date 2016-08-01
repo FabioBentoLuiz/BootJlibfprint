@@ -1,0 +1,16 @@
+jlibfprint/Device.class
+jlibfprint/DiscoveredDevice.class
+jlibfprint/SampleRun.class
+jlibfprint/PrintData.class
+jlibfprint/Driver.class
+jlibfprint/DiscoveredDeviceList.class
+jlibfprint/JlibFprint$fp_enroll_result.class
+jlibfprint/JlibfprintMain.class
+jlibfprint/VerifyResultCode.class
+jlibfprint/JlibFprint$fp_print_data.class
+jlibfprint/JlibFprint$EnrollException.class
+jlibfprint/JlibFprint$fp_print_data_type.class
+jlibfprint/CoreException.class
+jlibfprint/EnrollResult.class
+jlibfprint/JlibFprint.class
+jlibfprint/EnrollResultCode.class

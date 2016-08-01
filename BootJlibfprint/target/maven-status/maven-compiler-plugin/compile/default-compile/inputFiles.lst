@@ -1,0 +1,6 @@
+/home/cediss/Documents/workspace-sts/FingerprintReader/src/main/java/com/fingerprint/model/DisplayableDevice.java
+/home/cediss/Documents/workspace-sts/FingerprintReader/src/main/java/com/fingerprint/service/EnrollmentService.java
+/home/cediss/Documents/workspace-sts/FingerprintReader/src/main/java/com/fingerprint/repository/EnrollStatusRepository.java
+/home/cediss/Documents/workspace-sts/FingerprintReader/src/main/java/com/fingerprint/FingerprintReaderApplication.java
+/home/cediss/Documents/workspace-sts/FingerprintReader/src/main/java/com/fingerprint/domain/EnrollmentStep.java
+/home/cediss/Documents/workspace-sts/FingerprintReader/src/main/java/com/fingerprint/controllers/FingerprintReaderController.java

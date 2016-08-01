@@ -1,0 +1,6 @@
+com/fingerprint/FingerprintReaderApplication.class
+com/fingerprint/service/EnrollmentService.class
+com/fingerprint/model/DisplayableDevice.class
+com/fingerprint/domain/EnrollmentStep.class
+com/fingerprint/controllers/FingerprintReaderController.class
+com/fingerprint/repository/EnrollStatusRepository.class

@@ -1,10 +1,11 @@
 # BootJlibfprint
 It is a simple implementation of Jlibfprint (https://github.com/eduardobogoni/jlibfprint#jlibfprint) + Spring Boot. 
+Currently is works just in Linux.
 
 #Jlibfprint Installation
 Follow the steps described at https://github.com/eduardobogoni/jlibfprint#jlibfprint to compile libfprint_jni.
 
-To edit the file JlibFprint_jni/src/Makefile.am, I've found the Phil Lavin tips (https://github.com/phil-lavin/libfprint-java) usefull:
+In the section to edit the file JlibFprint_jni/src/Makefile.am, I've found the Phil Lavin's hints (https://github.com/phil-lavin/libfprint-java) usefull:
 > You need to add 5 things here, in the same style as the example below:
 
 > - The path to the libfprint source directory. In my case, /home/pi/fprint/libfprint/libfprint-0.5.1
@@ -30,6 +31,20 @@ After compile libfprint_jni and the Jlibfprint java project, change the pom.xml 
 </dependency>
 ```
 To debug on Spring Tool Suite or Eclipse, add the environment variable JLIBFPRINT_JNI=/usr/local/lib/libfprint_jni.so on Run -> Run Configurations -> Environment.
+
+#Configuration - application.properties
+```
+server.port=9000
+spring.datasource.name=test
+spring.thymeleaf.cache=false
+spring.h2.console.enabled=true
+spring.h2.console.path=/console
+spring.datasource.platform=h2
+```
+With the default configuration, the application will be available on port 9000. Ex: http://localhost:9000.
+
+It uses h2 in memory database, so be aware that every time that you restart the application, the database is erased. The database is accessible on /console, no password is necessary. Ex: http://localhost:9000/console.
+
 
 #Contributors
 Copyright (C) 2016 Fabio Bento Luiz fabioluiz@outlook.de

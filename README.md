@@ -1,5 +1,8 @@
 # BootJlibfprint
-It is a simple implementation of Jlibfprint (https://github.com/eduardobogoni/jlibfprint#jlibfprint) + Spring Boot. 
+This is a simple implementation of Jlibfprint (https://github.com/eduardobogoni/jlibfprint#jlibfprint) in a Spring Boot application.
+
+It has no error handling and is part of a initial research with the intent of analyse if it would be possible implement libfprint with a web based interface.
+
 Currently is works just in Linux.
 
 #Jlibfprint Installation

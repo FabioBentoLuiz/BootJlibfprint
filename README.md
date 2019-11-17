@@ -1,4 +1,9 @@
+**Consider using the newer  implementation (raspi-libfprint) is available [here](https://github.com/FabioBentoLuiz/BootJlibfprint)**.
+
+**A blog post with further details you can find [here](https://fbentoluiz.io/libfprint)**.
+
 # BootJlibfprint
+
 This is a simple implementation of Jlibfprint (https://github.com/eduardobogoni/jlibfprint#jlibfprint) in a Spring Boot application.
 
 It has no error handling and is part of a initial research with the intent of analyse if it would be possible implement libfprint with a web based interface.
@@ -50,7 +55,7 @@ It uses h2 in memory database, so be aware that every time that you restart the 
 
 
 #Contributors
-Copyright (C) 2016 Fabio Bento Luiz fabioluiz@outlook.de
+Copyright (C) 2016 Fabio Bento Luiz bento_85@hotmail.com
 
 Many thanks to:
 - Copyright (C) 2012 Fabio Scippacercola nonplay.programmer@gmail.com

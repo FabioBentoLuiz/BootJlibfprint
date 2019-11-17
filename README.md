@@ -1,4 +1,4 @@
-**Consider using the newer  implementation (raspi-libfprint) is available [here](https://github.com/FabioBentoLuiz/BootJlibfprint)**.
+**Consider using the newer  implementation (raspi-libfprint). It is available [here](https://github.com/FabioBentoLuiz/BootJlibfprint)**.
 
 **A blog post with further details you can find [here](https://fbentoluiz.io/libfprint)**.
 
